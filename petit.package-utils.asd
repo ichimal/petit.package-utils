@@ -1,16 +1,16 @@
 (cl:in-package :cl-user)
 
-(defpackage #:petit.package-control-asd
+(defpackage #:petit.package-utils-asd
   (:use :cl :asdf) )
 
-(in-package #:petit.package-control-asd)
+(in-package #:petit.package-utils-asd)
 
-(defsystem petit.package-control
-  :name "petit package control"
+(defsystem petit.package-utils
+  :name "petit package utils"
   :version "0.1.0"
   :maintainer "SUZUKI Shingo"
   :author "SUZUKI Shingo"
   :licence "MIT"
-  :description "petit utilities for packaging"
-  :components ((:file "package-control")) )
+  :description "petit tool box for packaging"
+  :components ((:file "package-utils")) )
 

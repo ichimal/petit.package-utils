@@ -1,7 +1,13 @@
-petit.package-control
+petit.package-utils
 ====
 
-Petit package for packaging utilities.
+Petit tool box about packaging.
+
+## Package name and its nicknames:
+
+### *[package name]* `petit.package-utils`
+
+### *[package nicknames]* `ppu` and `petit.pu`
 
 ## APIs:
 
@@ -20,18 +26,18 @@ e.g.
     (defun car (obj) ...)
 
     (in-package :cl-user)
-    (pkgctl:use-conflict-package :foo)
+    (ppu:use-conflict-package :foo)
     (symbol-package 'car) ; => #<PACKAGE FOO>
 
 You can also specify *to-package* for `USE-CONFLICT-PACKAGE` optionally.
 
-e.g. `(pkgctl:use-conflict-package` *from-package* *to-package*`)`
+e.g. `(ppu:use-conflict-package` *from-package* *to-package*`)`
 
 ### *[Function]* `PACKAGE-SHORTEST-NAME`:
 
 Returns shortest name or nickname of given [package designator](http://clhs.lisp.se/Body/26_glo_p.htm#package_designator).
 
-e.g. `(pkgctl:package-shortest-name :common-lisp-user) ; => "USER"`
+e.g. `(ppu:package-shortest-name :common-lisp-user) ; => "USER"`
 
 Note: for GNU CLISP, `PKGCTL:PACKAGE-SHORTEST-NAME` is just a synonym of [`EXT:PACKAGE-SHORTEST-NAME`](file://localhost/C:/Users/ichimal/Documents/public/documents/lang/lisp/cl/clisp/impnotes/prompt.html#package-shortest-name).
 
