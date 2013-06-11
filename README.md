@@ -5,9 +5,9 @@ Petit tool box about packaging.
 
 ## Package name and its nicknames:
 
-### *[package name]* `petit.package-utils`
+### *[package name]* `PETIT.PACKAGE-UTILS`
 
-### *[package nicknames]* `ppu` and `petit.pu`
+### *[package nicknames]* `PPU` and `PETIT.PU`
 
 ## APIs:
 
@@ -39,7 +39,7 @@ Returns shortest name or nickname of given [package designator](http://clhs.lisp
 
 e.g. `(ppu:package-shortest-name :common-lisp-user) ; => "USER"`
 
-Note: for GNU CLISP, `PKGCTL:PACKAGE-SHORTEST-NAME` is just a synonym of [`EXT:PACKAGE-SHORTEST-NAME`](file://localhost/C:/Users/ichimal/Documents/public/documents/lang/lisp/cl/clisp/impnotes/prompt.html#package-shortest-name).
+Note: for GNU CLISP, `PPU:PACKAGE-SHORTEST-NAME` is just a synonym of [`EXT:PACKAGE-SHORTEST-NAME`](file://localhost/C:/Users/ichimal/Documents/public/documents/lang/lisp/cl/clisp/impnotes/prompt.html#package-shortest-name).
 
 ## License:
 Under MIT license.
