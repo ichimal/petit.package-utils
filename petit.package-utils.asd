@@ -11,6 +11,9 @@
   :maintainer "SUZUKI Shingo"
   :author "SUZUKI Shingo"
   :licence "MIT"
-  :description "petit tool box for packaging"
-  :components ((:file "package-utils")) )
+  :description "petit toolbox for packaging"
+  :components
+    ((:module src
+      :serial t
+      :components ((:file #:package-utils)) )))
 
