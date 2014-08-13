@@ -1,5 +1,15 @@
+.hg*
 .??*.sw?
 *.sw?
+*.cl
 *.fas
 *.fasl
-TODO.txt
+*.diff
+*.patch
+*.log
+*.txt
+log
+work
+tags
+TODO*
+
