@@ -15,5 +15,6 @@
   :components
     ((:module src
       :serial t
-      :components ((:file #:package-utils)) )))
+      :components ((:file #:packages)
+                   (:file #:package-utils) ))))
 
